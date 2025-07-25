@@ -89,7 +89,7 @@ project-root/
 
 
 
-----
+------------------------------------------------------------
 
 
 
@@ -99,14 +99,14 @@ project-root/
 - Generate an **App Password** and use it for `GMAIL_PASS` in the `.env`.
 - Make sure Vercel’s environment variables are also correctly set.
 
----
+-------------------------------------
 
 ## 📦 Deployment
 
 This project is deployed using [Vercel](https://vercel.com).  
 After pushing to GitHub, Vercel automatically deploys your app if it’s linked.
 
----
+------------------------------------------
 
 ## 📬 Contact
 
