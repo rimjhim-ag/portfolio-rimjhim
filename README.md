@@ -87,17 +87,23 @@ project-root/
 
 ---
 
+
+
+----
+
+
+
 ## ✉️ Email Integration Notes
 
-* You must enable **2-Step Verification** on your Gmail account.
-* Generate an **App Password** and use it for `GMAIL_PASS` in the `.env`.
-* Make sure Vercel’s environment variables are also correctly set.
+- You must enable **2-Step Verification** on your Gmail account.
+- Generate an **App Password** and use it for `GMAIL_PASS` in the `.env`.
+- Make sure Vercel’s environment variables are also correctly set.
 
 ---
 
 ## 📦 Deployment
 
-This project is deployed using [Vercel](https://vercel.com).
+This project is deployed using [Vercel](https://vercel.com).  
 After pushing to GitHub, Vercel automatically deploys your app if it’s linked.
 
 ---
@@ -106,9 +112,8 @@ After pushing to GitHub, Vercel automatically deploys your app if it’s linked.
 
 Feel free to check out my portfolio and get in touch directly via the contact form or:
 
-* Email: [arimjhim250@gmail.com](mailto:arimjhim250@gmail.com)
-* GitHub: [rimjhim-ag](https://github.com/rimjhim-ag)
-* LinkedIn: [Rimjhim Agrawal](https://www.linkedin.com/in/rimjhim-agrawal23000/)
-
-
+- **Email**: arimjhim250@gmail.com  
+- **GitHub**: [rimjhim-ag](https://github.com/rimjhim-ag)  
+- **LinkedIn**: [Rimjhim Agrawal](https://www.linkedin.com/in/rimjhim-agrawal23000/)
 ```
+
