@@ -22,7 +22,7 @@ const Portfolio = () => {
     description: "A responsive and interactive personal portfolio website showcasing my projects, skills, and services using modern UI/UX design principles.",
     image: portfolioImage, // replace with actual image import
     technologies: ["React", "Tailwind CSS", "Lucide", "Vite"],
-    liveUrl: "https://your-portfolio-url.com",
+    liveUrl: "https://portfolio-rimjhim.vercel.app/",
    
   },
  {
