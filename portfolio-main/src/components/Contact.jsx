@@ -17,14 +17,39 @@ const Contact = () => {
   
   const { toast } = useToast();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    toast({
-      title: "Message sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
-    });
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    });
+
+    if (res.ok) {
+      toast({
+        title: " Message sent!",
+        description: "Thank you! I will contact you as soon as possible.",
+      });
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    } else {
+      toast({
+        variant: "destructive",
+        title: " Message failed to send",
+        description: "Please try again later or contact me via email.",
+      });
+    }
+  } catch (error) {
+    console.error(error);
+    toast({
+      variant: "destructive",
+      title: "Something went wrong",
+      description: "Please check your internet or try again later.",
+    });
+  }
+};
+
 
   const handleChange = (e) => {
     setFormData(prev => ({
