@@ -21,7 +21,7 @@ const Portfolio = () => {
     title: "Portfolio Website",
     description: "A responsive and interactive personal portfolio website showcasing my projects, skills, and services using modern UI/UX design principles.",
     image: portfolioImage, // replace with actual image import
-    technologies: ["React", "Tailwind CSS", "Lucide", "Vite"],
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Lucide", "Vite", "NodeMailer"],
     liveUrl: "https://portfolio-rimjhim.vercel.app/",
    
   },
